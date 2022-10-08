@@ -14,7 +14,34 @@ h1 {
 }
 
 div.reasons {
-  margin: 4rem 0 2rem 0;
+  display: block;
+  margin: 4rem auto 2rem auto;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  div ol {
+    margin-left: 22%;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  div ol {
+    margin-left: 28%;
+    text-align: left;
+  }
+}
+@media (max-width: 922px) {
+  div ol {
+    margin-left: 35%;
+    text-align: left;
+  }
+}
+@media (min-width: 922px) {
+  div ol {
+    margin-left: 40%;
+    text-align: left;
+  }
 }
 
 img {
